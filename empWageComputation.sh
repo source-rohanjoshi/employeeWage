@@ -5,9 +5,10 @@ randomCheck=$((RANDOM%2))
 
 if [ $isPresent -eq $randomCheck ];
 then
-	echo 'Employee is Present';
+        echo 'Employee is Present';
 else
-	echo 'Employee is Absent';
+        echo 'Employee is Absent';
 fi
+
 
 
